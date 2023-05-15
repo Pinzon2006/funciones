@@ -2,7 +2,7 @@
 #Ejemplo Formulario
 #Nombre - Apellido - Edad - Ciudad - Correo - Años de Experiencia - Salario
 def formulario(nombres, apellidos, edad, ciudad, correo, years, salario):
-    print(f"\n\nLos Datos del Formulario enviado son:\nNombres: {nombres}\nApellidos: {apellidos}\nEdad: {edad}\nCiudad: {ciudad}\nCorreo: {correo}\nAños de Experiencia: {years}\nSalario: {salario}")
+    print(f"\n\nLos Datos Enviados al Formulario son:\nNombres: {nombres}\nApellidos: {apellidos}\nEdad: {edad}\nCiudad: {ciudad}\nCorreo: {correo}\nAños de Experiencia: {years}\nSalario: {salario}")
     
 nombres = input("Ingrese sus Nombres: ")
 apellidos = input("Ingrese sus Apellidos: ")
