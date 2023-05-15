@@ -8,3 +8,4 @@ def despedida(nombres, tiempo):
     variable =
     
 funcion = (variable)
+
