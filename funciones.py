@@ -22,4 +22,4 @@ years = int(input("Ingrese sus Años de Experiencia: "))
 salario = float(input("Ingrese su expectativa de Salario a ganar: "))
 
 
-formulario(nombres, apellidos,edad,ciudad,correo,years,salario)
+formulario(nombres,apellidos,edad,ciudad,correo,years,salario)
