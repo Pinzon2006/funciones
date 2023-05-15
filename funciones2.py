@@ -1,11 +1,9 @@
 #Funciones y Return
 #Despedir a un Usuario
 def despedida(nombres, tiempo):
-    print("message",variable)
-    print(f"message {variable} años")
+    print(f"Adios {nombres} por trabajar estos {tiempo} años")
 
-    variable = 
-    variable =
+nombres = input("Ingrese sus nombres: ")
+tiempo = input("Ingrese numero de años trabajados: ")
     
-funcion = (variable)
-
+despedida(nombres,tiempo)
