@@ -1,4 +1,5 @@
-#Primero le doy valor a la funcion def
+#Funcion con parametros
+#Primero le doy valor a la funcion 
 def information(name,lastname,age):
     #Segundo: Se dijita lo que se desea mostrar en la consola
     print(f"Name: {name}\n Lastname: {lastname}\n age: {age}")
@@ -7,7 +8,6 @@ def information(name,lastname,age):
 name= input("Name:")
 lastname= input("Lastname:")
 age = input("Age:")
-
-#Finalmente se codifica lo que se necesita identificar en la funcion
+#Finalmente llamamos a la funcion information
 information(name,lastname,age)
-
+print("\n")

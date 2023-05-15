@@ -9,5 +9,5 @@ def despedida(nombres, tiempo):
 nombres = input("Ingrese sus nombres: ")
 tiempo = input("Ingrese numero de años trabajados: ")
 
-#Finalmente se le coloca el argumento que queremos que identifique la funcion.
+#Finalmente llamamos a la funcion despedida
 despedida(nombres,tiempo)
