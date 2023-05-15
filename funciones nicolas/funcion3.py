@@ -1,8 +1,7 @@
-#Funcion Return
-#Primero le doy valor a la funcion
-def Multiplicacion():
-    print("La multiplicacion de x y 2024")
-    return float(input("Ingrese el valor de x: "))
+def multiplicar(x,y):
+    multiplicacionx = x*x
+    multiplicaciony = y*y
+    return multiplicacionx, multiplicaciony
 
-print(f"\nEl resultado es {Multiplicacion()*2024: .0f}")
-
+multiplicacionx, multiplicaciony = multiplicar(1,3)
+print(f"la multiplicacion de x es {multiplicacionx} y la multiplicacion de y es {multiplicaciony}")
