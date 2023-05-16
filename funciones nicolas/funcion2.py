@@ -1,4 +1,4 @@
-
+#Funcion con parametros
 #Primero le doy valor a la funcion 
 def information(name,lastname,age):
     #Segundo: Se dijita lo que se desea mostrar en la consola

@@ -3,5 +3,8 @@ def multiplicar(x,y):
     multiplicaciony = y*y
     return multiplicacionx, multiplicaciony
 
-multiplicacionx, multiplicaciony = multiplicar(1,3)
-print(f"la multiplicacion de x es {multiplicacionx} y la multiplicacion de y es {multiplicaciony}")
+multiplicacionx= 1
+multiplicaciony= 2
+valordelamultiplicacion= multiplicacionx*multiplicaciony
+print(f"El valor de x es {multiplicacionx} y el vaolr de y es igual a {multiplicaciony} lo que no da el resultado {valordelamultiplicacion}")
+
