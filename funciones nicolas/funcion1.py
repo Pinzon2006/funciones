@@ -1,4 +1,4 @@
-#Funcion sin parametros
+
 #Primero le doy valor a la funcion
 def login(name,age,email):
     print(f"Tu nombre de usuario es {name}, ti enes {age} años y tu correo es {email}")
